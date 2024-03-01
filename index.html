@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete responsive coffee shop website design</title>
+
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <!-- header section starts from here  -->
+
+    <header class="header">
+      <a href="http://127.0.0.1:5500/index.html#home" class="logo">
+        <img src="./logo.png" />
+      </a>
+
+      <div class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#product">product</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </div>
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+    </header>
+    <!-- header section ends from here  -->
+
+    <!-- home section starts from here  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>
+          Coffee has seamlessly integrated into the professional realm, <br> transcending its role as a simple beverage to become a symbol of productivity and collaboration. 
+        </p>
+        <a href="#" class="btn main-button">get your now</a>
+      </div>
+    </section>
+    <!-- home section ends from here  -->
+
+    <!-- about section starts from here  -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+      <div class="row">
+        <div class="image">
+          <img
+            src="https://images.pexels.com/photos/685527/pexels-photo-685527.jpeg?auto=compress&cs=tinysrgb&w=600"
+          />
+        </div>
+        <div class="content">
+          <h3>what makes our coffee special</h3>
+          <p>
+            In the corporate world, coffee breaks are not just moments of <br>relaxation but also opportunities for networking and idea exchange. <br>
+          </p>
+          <p>
+           
+            Its presence in meetings and boardrooms adds a touch of professionalism, 
+          </p>
+          <a href="#" class="btn main-button">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends from here  -->
+
+    <!-- menu section starts from here  -->
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./cup1.jpeg" width="100px" style="border-radius: 50%" />
+          <h3>tasty and healthy</h3>
+          <div class="price">$14.99 <span>20.99</span></div>
+          <a href="#" class="btn main-button"> add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./cup2.jpeg" width="100px" style="border-radius: 50%" />
+          <h3>tasty and healthy</h3>
+          <div class="price">$19.99 <span>25.99</span></div>
+          <a href="#" class="btn main-button"> add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./cup7.jpeg" width="100px" style="border-radius: 50%" />
+          <h3>tasty and healthy</h3>
+          <div class="price">$24.99 <span>30.99</span></div>
+          <a href="#" class="btn main-button"> add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./cup8.jpeg" width="100px" style="border-radius: 50%" />
+          <h3>tasty and healthy</h3>
+          <div class="price">$29.99 <span>35.99</span></div>
+          <a href="#" class="btn main-button"> add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./cup5.jpeg" width="100px" style="border-radius: 50%" />
+          <h3>tasty and healthy</h3>
+          <div class="price">$34.99 <span>40.99</span></div>
+          <a href="#" class="btn main-button"> add to cart</a>
+        </div>
+        <div class="box">
+          <img src="./cup6.jpeg" width="100px" style="border-radius: 50%" />
+          <h3>tasty and healthy</h3>
+          <div class="price">$39.99 <span>45.99</span></div>
+          <a href="#" class="btn main-button"> add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section ends from here  -->
+
+    <section class="product" id="product">
+      <h1 class="heading">our <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fa-regular fa-heart"></a>
+            <a href="#" class="fa-regular fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlfGVufDB8fDB8fHww"
+              width="300px"
+            />
+          </div>
+          <div class="content">
+            <h3>Fresh Coffee</h3>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star-half-alt"></i>
+            </div>
+            <div class="price">$49.99 <span>$59.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fa-regular fa-heart"></a>
+            <a href="#" class="fa-regular fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://media.istockphoto.com/id/1358132613/photo/refreshing-hot-cup-of-coffee-at-a-cafe.webp?b=1&s=170667a&w=0&k=20&c=yWCgrKacdKBjpwTStBv8IBnMjuIECKUTfuCtkAfyMlc="
+              width="300px"
+              height="450px"
+            />
+          </div>
+          <div class="content">
+            <h3>Healthy Coffee</h3>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star-half-alt"></i>
+            </div>
+            <div class="price">$59.99 <span>$69.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fa-regular fa-heart"></a>
+            <a href="#" class="fa-regular fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://media.istockphoto.com/id/1472699849/photo/cup-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.webp?b=1&s=170667a&w=0&k=20&c=zlIGptGDzdZH4FDdVgYFLVwRk_mpjepSGr3-X3lA79k="
+              width="300px"
+              height="450px"
+            />
+          </div>
+          <div class="content">
+            <h3>Warm Coffee</h3>
+            <div class="stars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star-half-alt"></i>
+            </div>
+            <div class="price">$79.99 <span>$89.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section starts  -->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="love.png" class="quote" width="150px" />
+          <img
+            src="https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?w=740&t=st=1709200719~exp=1709201319~hmac=977bdd0a7af3ff0083c12c735b57c2d8a4d25d2afb5b94a08635a7b84707c3e6"
+            class="user"
+          />
+          <p>
+            Enjoying small slice of life adventures with friends makes Teacup feel like a love letter to your childhood at times. Thankfully the fetch quests and dialogue..
+          </p>
+          <h3>Glen Maxwell</h3>
+          <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="love.png" class="quote" width="150px" />
+          <img
+            src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=740&t=st=1709200693~exp=1709201293~hmac=4211c1b0a523df81ccf6ff0cd31900fb0309eac3b27326a6814d54dd651b7154"
+            class="user"
+          />
+          <p>
+            It promotes the idea of stepping out of your comfort zone, even when you really don't want to, which is valuable for anyone who needs it.
+          </p>
+          <h3>Buttler</h3>
+          <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="love.png" class="quote" width="150px" />
+          <img
+            src="https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg?w=740&t=st=1709200646~exp=1709201246~hmac=4566fbb114d8b715948b34a2de9c3a30252f00bcb25a2161e1be2c9600f0f0db"
+            class="user"
+          />
+          <p>
+            Teacup is an undeniably adorable adventure for anyone facing anxieties or looking for a wholesome way to pass the time.
+          </p>
+          <h3>Jdx stump</h3>
+          <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends  -->
+
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28843.599237857805!2d69.71705650268255!3d25.356233848550293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394f21c3879b3989%3A0x20633183c4534261!2sUmarkot%2C%20Umerkot%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1709204647066!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <h1 style="font-size: 30px">GET IN TOUCH</h1>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="Number" />
+          </div>
+          <input type="submit" value="contact now" class="btn main-button" />
+        </form>
+      </div>
+    </section>
+    <!-- contact section ends  -->
+
+    <!-- blogs section start  -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://img.freepik.com/premium-photo/coffee-cup-beans-rustic-background-coffee-espresso-piece-cake-with-curl-cup-coffee-coffee-beans-table_107989-534.jpg?size=626&ext=jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <a href="#" class="title">testing and refreshing coffee</a>
+            <span>by admin / 21th may, 2021</span>
+            <p>
+              The carefully brewed cup becomes an essential part of the work environment
+            </p>
+            <a href="#" class="btn main-button">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://img.freepik.com/free-photo/front-view-brown-coffee-seeds-with-choco-bars-cup-coffee-all-brown-surface-coffee-seed-grain-granule_140725-25919.jpg?size=626&ext=jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <a href="#" class="title">testing and refreshing coffee</a>
+            <span>by admin / 21th may, 2021</span>
+            <p>
+              In boardrooms and offices alike, the aroma of freshly brewed coffee sets a professional tone,
+            </p>
+            <a href="#" class="btn main-button">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://img.freepik.com/free-photo/top-view-cup-coffee-with-coffee-beans-isolated-wooden-surface_141793-80984.jpg?w=740&t=st=1709225396~exp=1709225996~hmac=aca35ffe546af4c7c2dbcaf4aa197519c101ae5957a32c415d6f0ec273568f55"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <a href="#" class="title">testing and refreshing coffee</a>
+            <span>by admin / 21th may, 2021</span>
+            <p>
+              transcends its basic function, becoming a symbol of productivity, collaboration, and the shared pursuit.
+            </p>
+            <a href="#" class="btn main-button">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blogs section ends  -->
+
+    <!-- footer section start  -->
+    <section class="footer">
+      <div class="share">
+        <a href="https://www.facebook.com/profile.php?id=100089802513906&mibextid=ZbWKwL" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/love9274kumar" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="http://www.youtube.com/@LoveKumar-rl7yh" class="fab fa-youtube"></a>
+      </div>
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </div>
+      <div class="credit">
+        created by <span>Mr. love Kumar Khimani</span> | all rights reserved
+      </div>
+    </section>
+    <!-- footer section ends  -->
+
+    <!-- custom js link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
